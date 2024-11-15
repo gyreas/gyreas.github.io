@@ -1,4 +1,4 @@
-title                  = 'Saed Adeleye'
+title                  = 'Senseless Lotus 🪷'
 baseURL                = 'https://gyreas.github.com/'
 theme                  = 'hello-friend-ng'
 languageCode           = 'en-gb'
@@ -62,7 +62,7 @@ enableMissingTranslationPlaceholders = false
   dateformNumTime = "2006-01-02 15:04"
 
   # Metadata mostly used in document's head
-  description = "Nice theme for homepages and blogs"
+  description = "gyroscopic musings"
   keywords = ""
   images = [""]
   homeSubtitle = "a nice joke"
