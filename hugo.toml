@@ -140,6 +140,14 @@ enableMissingTranslationPlaceholders = false
     url  = "https://github.com/gyreas"
 
   [[params.social]]
+    name = "sourcehut"
+    url  = "https://sr.ht/~gyreas/"
+
+  # [[params.social]]
+  #   name = "matrix"
+  #   url  = "https://sr.ht/~gyreas/"
+
+  [[params.social]]
     name = "twitter"
     url  = "https://twitter.com/"
 
