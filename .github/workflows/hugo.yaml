@@ -54,7 +54,7 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          TZ: Nigeria/Lagos
+          TZ: Africa/Lagos
         run: |
           hugo \
             --gc \
