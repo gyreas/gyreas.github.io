@@ -52,7 +52,7 @@ enableMissingTranslationPlaceholders = false
 
 [taxonomies]
   tag      = "tags"
-  category = "categories"
+  category = "blog"
   series   = "series"
 
 [params]
