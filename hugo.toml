@@ -21,7 +21,7 @@ buildExpired = false
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = false
+enableGitInfo   = true
 enableEmoji     = true
 disableRSS     = true
 disableSitemap = false
@@ -71,16 +71,16 @@ enableMissingTranslationPlaceholders = false
   # backgroundImage = "assets/images/background.jpg"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  gitUrl = "https://github.com/gyreas/gyreas.github.com"
+  gitUrl = "https://github.com/gyreas/gyreas.github.io/commit/"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # This options enables the theme toggle for the theme. 
   # Per default, this option is off. 
   # The theme is respecting the prefers-color-scheme of the operating system. 
   # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = false
+  enableThemeToggle = true
 
   # generate the buttons here: https://sharingbuttons.io
   # add them to `layouts/partials/sharing-buttons.html`
@@ -137,7 +137,7 @@ enableMissingTranslationPlaceholders = false
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/gyreas"
+    url  = "https://github.com/gyreas/"
 
   [[params.social]]
     name = "sourcehut"
@@ -160,13 +160,13 @@ enableMissingTranslationPlaceholders = false
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   [languages.en.params]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = ""
 
   [languages.fr]
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   [languages.fr.params]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = ""
 
 [menu]
   [[menu.main]]
