@@ -106,7 +106,7 @@ enableMissingTranslationPlaceholders = false
 
   # Custom footer 
   [params.footer]
-    trademark = 2024
+    trademark = 2025
     rss       = false
     copyright = true
     author    = true
