@@ -1,0 +1,186 @@
+@import "normalize.css";
+@import "fonts.css";
+@import "code.css";
+@import "emacs.css";
+
+body {
+	margin-top: 0px;
+	padding: 0;
+	font-family: Inter;
+	font-size: 124%;
+	line-height: 150%;
+	background-color: #232425;
+	color: white;
+}
+
+a:link, a:visited	{
+	text-decoration: none;
+	color:white;
+}
+
+a:hover	{
+	text-decoration: underline;
+}
+
+#logo	{
+	text-align:left;
+	margin-left: 14px;
+}
+
+#logo ol {
+	margin: 0px;
+	padding: 0px;
+}
+
+#main {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#nav {
+	text-align:center;
+	margin:auto;
+	margin-top:0px;
+	padding-top:0px;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	border-bottom: 1px solid gray;
+}
+
+#content-left {
+	text-align:left;
+	margin:auto;
+	padding-top:5px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+}
+
+#content {
+	text-align:right;
+	margin:auto;
+	margin-top:20px;
+	padding-top:20px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+}
+
+#footer {
+	text-align:center;
+	margin:auto;
+	font-size:0.8em;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-top: 1px solid #000;
+}
+
+#content-left a:link, #content-left a:visited	{
+	text-decoration: underline;
+	color:rgb(187, 180, 180)
+}
+
+#content-left a:hover	{
+	text-decoration: none;
+}
+
+#post-short a:link, #post-short a:visited	{
+	text-decoration: none;
+	color:#c9d1da
+}
+
+#post-short a:hover	{
+	text-decoration: underline;
+}
+
+#post-short h3, #post h2	{
+	margin-bottom: 0px;
+}
+
+#post-short i	{
+	font-size:0.8em;
+	color: grey;
+}
+
+#post i	{
+	font-size:0.9em;
+	color: grey;
+}
+
+#categories a, #categories a:link, #categories a:visited {
+	background-color: gray;
+	color: white;
+	text-decoration: none;
+	padding: 0.1em 0.5em 0.1em 0.5em;
+	border-radius: 25px;
+}
+
+#gyre {
+	text-align: center;
+	margin-bottom: 9em;
+	font-size: 1.5em;
+}
+
+#categories a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 850px) {
+	#main {
+		width: auto;
+		margin: 0 auto;
+		padding: 10px;
+	}
+
+	#logo, #nav, #content-left,	#footer {
+		display: block;
+		width: 100%;
+	}
+
+	#logo img {
+		max-width: 80%;
+	}
+
+	#nav {
+		font-size: 1.3em;
+		padding-bottom: 0.5em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	h3 {
+		font-size: 1.4em;
+	}
+
+}
+
+@media screen and (max-width: 450px) {
+	#main {
+		width: auto;
+		margin: 0 auto;
+		padding: 10px;
+	}
+
+	#logo, #nav, #content-left,	#footer {
+		display: block;
+		width: 100%;
+	}
+
+	#logo img {
+		max-width: 80%;
+	}
+
+	#nav {
+		font-size: 1.0em;
+		padding-bottom: 0.5em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+}

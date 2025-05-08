@@ -1,0 +1,23 @@
+title: Saheed's blog
+owner: Saheed Adeleye
+email: aadesaed@gmail.com
+description: where the action is
+domain: ""
+baseurl: ""
+url: ""
+year: 2025
+language: en
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+permalink: /:year/:month/:day/:title/
+
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle
+excerpt_separator: <!--more-->

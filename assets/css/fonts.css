@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Inter";
+  font-style:  normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("/assets/fonts/Inter-Regular.woff2") format("woff2"),
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style:  italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url("/assets/fonts/Inter-Italic.woff2") format("woff2"),
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style:  normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url("/assets/fonts/Inter-Bold.woff2") format("woff2"),
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style:  italic;
+  font-display: swap;
+  font-weight: 800;
+  src: url("/assets/fonts/Inter-BoldItalic.woff2") format("woff2"),
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style:  normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url("/assets/fonts/JetBrainsMono-Bold.woff2") format("woff2"),
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style:  regular;
+    font-display: swap;
+    font-weight: 400;
+    src: url("/assets/fonts/JetBrainsMono-Regular.woff2") format("woff2"),
+}
+
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style:  italic;
+    font-display: swap;
+    font-weight: 400;
+    src: url("/assets/fonts/JetBrainsMono-Italic.woff2") format("woff2"),
+}

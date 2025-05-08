@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{site.language}}">
+  {% include head.html %}
+  <body>
+	<div id="main">
+  	{% include nav.html %}
+		<div id="content-left">
+      <div id="post">
+        <h2>{{ page.title }}</h2>
+        <i>posted on {{ page.date | date: "%-d %b %Y" }}</i>
+        {{ content }}
+        {% if page.tags.size > 0 %}
+          <div id="tags">
+            <p><b>tags:</b>&nbsp;
+              {% for tag in page.tags %}
+                <a href="{{site.url}}{{site.baseurl}}/tags/{{tag}}/">#{{tag}}</a>&nbsp;
+              {% endfor %}
+            </p>
+          </div>
+        {% endif %}
+  		</div>
+    </div>
+		{% include footer.html %}
+	</div>
+    </body>
+</html>
