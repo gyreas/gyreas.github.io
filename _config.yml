@@ -1,4 +1,4 @@
-title: Saheed's blog
+title: gyre's blog
 owner: Saheed Adeleye
 email: aadesaed@gmail.com
 description: where the action is
@@ -14,9 +14,11 @@ theme: minima
 
 permalink: /:year/:month/:day/:title/
 
-gems:
+plugins:
+  - jekyll-minifier
   - jekyll-feed
 exclude:
+  - justfile
   - Gemfile
   - Gemfile.lock
   - vendor/bundle
