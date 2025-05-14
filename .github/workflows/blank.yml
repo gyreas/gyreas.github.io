@@ -1,0 +1,31 @@
+name: Update CV on Website
+
+on:
+  repository_dispatch:
+    types: [update-cv]
+
+jobs:
+  update-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download CV from CV repo
+        run: |
+          curl -H "Authorization: token ${{ secrets.PERSONAL_TOKEN }}" \
+               -H "Accept: application/vnd.github.v3+json" \
+               -o Saheed-Adeleye.pdf \
+               -L "https://api.github.com/repos/gyreas/cv/actions/artifacts" \
+               | jq -r '.artifacts[] | select(.name=="saheed-cv") | .archive_download_url' \
+               | xargs -I {} curl -L -H "Authorization: token ${{ secrets.PERSONAL_TOKEN }}" -o artifact.zip "{}"
+          unzip artifact.zip
+
+      - name: Copy and commit
+        run: |
+          mkdir -p assets
+          cp Saheed-Adeleye.pdf assets/
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add assets/Saheed-Adeleye.pdf
+          git commit -m "Update CV PDF"
+          git push
