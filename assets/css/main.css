@@ -13,6 +13,13 @@ body {
 	color: white;
 }
 
+blockquote {
+	padding: 1px 1px 1px 20px;
+	background-color: #2d2a2a85;
+	font-size: 90%;
+	border-left: 2px solid #dfcccc;
+}
+
 a:link, a:visited	{
 	text-decoration: none;
 	color:white;
