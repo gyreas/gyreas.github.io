@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What happens when you `fork()`?
+title: What happens when you fork()?
 date: 2025-05-20T02:52:11+01:00
 tags:
 ---
@@ -88,7 +88,7 @@ or `execve*()`.
     via the system's command runner, which is `/bin/sh -c` on *NIX systems
 
 
-### # Uses of fork and examples
+### Uses of fork and examples
 
 If you've ever used any program that runs other programs, there's a fork happening there somewhere.
 

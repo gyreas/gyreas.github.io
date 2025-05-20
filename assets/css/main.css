@@ -13,6 +13,10 @@ body {
 	color: white;
 }
 
+h3, h4, h5 {
+	margin-bottom: 0px;
+}
+
 blockquote {
 	padding: 1px 1px 1px 20px;
 	background-color: #2d2a2a85;
@@ -37,11 +41,6 @@ a:hover	{
 #logo ol {
 	margin: 0px;
 	padding: 0px;
-}
-
-#main {
-	width: 50%;
-	margin: 0 auto;
 }
 
 #nav {
@@ -91,7 +90,8 @@ a:hover	{
 
 #post-short a:link, #post-short a:visited	{
 	text-decoration: none;
-	color:#c9d1da
+	color: white;
+	font-style: italics;
 }
 
 #post-short a:hover	{
@@ -108,7 +108,7 @@ a:hover	{
 }
 
 #post i	{
-	font-size:0.9em;
+	font-size:0.8em;
 	color: grey;
 }
 
@@ -130,9 +130,17 @@ a:hover	{
 	text-decoration: underline;
 }
 
-@media screen and (max-width: 850px) {
+#main {
+	width: 70%;
+}
+
+.highlight {
+	width: fit-content;
+}
+
+@media screen and (min-width: 1081px) {
 	#main {
-		width: auto;
+		width: 54%;
 		margin: 0 auto;
 		padding: 10px;
 	}
@@ -151,21 +159,41 @@ a:hover	{
 		padding-bottom: 0.5em;
 	}
 
+	#content-left p {
+		font-size: 1.0em;
+	}
+
+	h2, h3, h4, h5 {
+		margin-bottom: 0px;
+	}
 	h2 {
-		font-size: 2em;
+		font-size: 2.2em;
+		line-height: 1em;
 	}
 
 	h3 {
-		font-size: 1.4em;
+		font-size: 1.5em;
+		line-height: 1.0em;
 	}
 
+	h4 {
+		font-size: 1.1em;
+	}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 851px) and (max-width: 1080px) {
 	#main {
-		width: auto;
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 450px) and (max-width: 850px) {
+	#main {
+		width: 98%;
 		margin: 0 auto;
 		padding: 10px;
+		font-size: 100%;
+		line-height: 150%;
 	}
 
 	#logo, #nav, #content-left,	#footer {
@@ -182,12 +210,22 @@ a:hover	{
 		padding-bottom: 0.5em;
 	}
 
+	#content-left p {
+		font-size: 0.9em;
+	}
+
+	h2, h3, h4, h5 {
+		margin-bottom: 0px;
+	}
 	h2 {
 		font-size: 2em;
 	}
 
 	h3 {
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 
+	h4 {
+		font-size: 0.8em;
+	}
 }

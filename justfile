@@ -4,4 +4,4 @@ dev:
     bundler exec jekyll serve --watch --drafts --incremental --livereload
 
 clean:
-    jekyll clean
+    bundle exec jekyll clean
